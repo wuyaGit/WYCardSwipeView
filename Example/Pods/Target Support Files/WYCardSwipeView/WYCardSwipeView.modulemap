@@ -1,0 +1,6 @@
+framework module WYCardSwipeView {
+  umbrella header "WYCardSwipeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

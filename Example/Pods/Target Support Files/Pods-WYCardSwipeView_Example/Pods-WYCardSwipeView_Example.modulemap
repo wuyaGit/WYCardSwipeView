@@ -1,0 +1,6 @@
+framework module Pods_WYCardSwipeView_Example {
+  umbrella header "Pods-WYCardSwipeView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

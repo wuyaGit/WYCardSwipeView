@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WYCardSwipeView_Example' do
+  pod 'WYCardSwipeView', :path => '../'
+
+  target 'WYCardSwipeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

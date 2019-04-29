@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08F2515A7F8826663A4B6E74F3DD2DED /* Pods-WYCardSwipeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F013BD3872320EEAC7D6AAFBD67FBA /* Pods-WYCardSwipeView_Example-dummy.m */; };
+		1A4B5708BD4E97BA4C7F1E3ABEEBCF27 /* Pods-WYCardSwipeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E76A3E55837873A23943E740D57CB7A /* Pods-WYCardSwipeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34DE178CA51DBE8029D2BAF3C9CD6960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3587A6D85ECF499C338192CEF527D6AB /* WYCardSwipeFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B170FD55AD112AA50D30DB50D766B66F /* WYCardSwipeFlowLayout.m */; };
+		40A1645CA14B09B517DF353CF3D3C5C4 /* WYCardSwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C53C8F280576A6E724C09C2D5E1639D0 /* WYCardSwipeView-dummy.m */; };
+		4D27DAD87E4D1F1E862A426B519C6E4C /* WYCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A086D1F11B7B9A87D1D73790AA6D350 /* WYCard.m */; };
+		4DAFC4EAEE785BE9A2A82521CC1C4200 /* WYCardItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B5C785DDFE7CD70FFF8045C64593B6 /* WYCardItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FE68CE46C31F06316D18591B7A40C92 /* WYCardSwipeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB6C810CC6665F3B93FA746CD776182 /* WYCardSwipeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760B1F1986B812B0E7AFBED52C3F5577 /* WYCardSwipeFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE5AF135735BA2681D0A651700B9F33 /* WYCardSwipeFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F2522F9F9661FB0EDBB0AECB1A776BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B05DE4511175991C6C5FAA80751A0628 /* WYCardSwipeView.h in Headers */ = {isa = PBXBuildFile; fileRef = A52EB3C3D5562F6CA203F64592117971 /* WYCardSwipeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C89078FE5A5760BAB1832ECBC390D5CC /* WYCard.h in Headers */ = {isa = PBXBuildFile; fileRef = C764D3EF451D95647D39714C21F6EBB9 /* WYCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7E3F52B7105714940457E4602EB84C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		D8148D1673B7EA70EBCFC9C731CDCE67 /* Pods-WYCardSwipeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F32ED57E134F7B2A3955481B7D0082 /* Pods-WYCardSwipeView_Tests-dummy.m */; };
+		D82EB38CE40C42A2608FA46487402301 /* WYCardSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C37B603C7F5D7685D0D150E354539B /* WYCardSwipeView.m */; };
+		E8FC8FE132210E4ACEE1A784B147E7AC /* WYCardItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 140A488DDE3D10255E20625BB0304293 /* WYCardItem.m */; };
+		EFB245A02E535B3323C9ECFC7F7A57C1 /* Pods-WYCardSwipeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE687AAC3D1836BFBEB02A4D35CA061 /* Pods-WYCardSwipeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4407B57EE0E732C1D439F9C2EE0CA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CCB9C195BEDC7769DD54959952A3BE6;
+			remoteInfo = "Pods-WYCardSwipeView_Example";
+		};
+		D4812C1F33E6EC32FD0D8AB65820DB95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16A619289649D47D7CFD3BFA6201620;
+			remoteInfo = WYCardSwipeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AB6C810CC6665F3B93FA746CD776182 /* WYCardSwipeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYCardSwipeView-umbrella.h"; sourceTree = "<group>"; };
+		140A488DDE3D10255E20625BB0304293 /* WYCardItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYCardItem.m; path = WYCardSwipeView/WYCardItem.m; sourceTree = "<group>"; };
+		19C4F58A79A7174CA115ADFCD5102E27 /* Pods-WYCardSwipeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYCardSwipeView_Tests.modulemap"; sourceTree = "<group>"; };
+		289BB694E5B14338CEDFBAE5BB707797 /* Pods_WYCardSwipeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYCardSwipeView_Tests.framework; path = "Pods-WYCardSwipeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AE687AAC3D1836BFBEB02A4D35CA061 /* Pods-WYCardSwipeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYCardSwipeView_Example-umbrella.h"; sourceTree = "<group>"; };
+		32F013BD3872320EEAC7D6AAFBD67FBA /* Pods-WYCardSwipeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYCardSwipeView_Example-dummy.m"; sourceTree = "<group>"; };
+		3A086D1F11B7B9A87D1D73790AA6D350 /* WYCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYCard.m; path = WYCardSwipeView/WYCard.m; sourceTree = "<group>"; };
+		3BF046D8D691CDA7F2964B169B44FDF0 /* Pods-WYCardSwipeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYCardSwipeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4230ED5C6AAD23501B8853B2D5FF5DF7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4429630E9A6EE4428CE586F6BF9684C0 /* Pods-WYCardSwipeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYCardSwipeView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		44B4C6CC7144F7EE870864057345DC84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		51D01E20CD17A18DD2B1CBF01609EFA3 /* WYCardSwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYCardSwipeView.xcconfig; sourceTree = "<group>"; };
+		620815C4ACD0AC0DB44BD5F2027854E3 /* Pods-WYCardSwipeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYCardSwipeView_Example.modulemap"; sourceTree = "<group>"; };
+		6B0C0D3855835C8265ED5052F6D9B4E7 /* Pods-WYCardSwipeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYCardSwipeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7727082CF1CE5DD1CC3CF6DF3E0D624D /* Pods-WYCardSwipeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYCardSwipeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7841652BF76DD711D7DA95B0DB24CA41 /* Pods-WYCardSwipeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCardSwipeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		784CBDBB93EC79D17E6B2ADA9E9F0CDB /* Pods_WYCardSwipeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYCardSwipeView_Example.framework; path = "Pods-WYCardSwipeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D59EDD6B35BE2A6528861F04C7B9C2B /* Pods-WYCardSwipeView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYCardSwipeView_Example-Info.plist"; sourceTree = "<group>"; };
+		8667E3FE3220A8B9AA6376404745F20D /* WYCardSwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYCardSwipeView-prefix.pch"; sourceTree = "<group>"; };
+		91F32ED57E134F7B2A3955481B7D0082 /* Pods-WYCardSwipeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYCardSwipeView_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E76A3E55837873A23943E740D57CB7A /* Pods-WYCardSwipeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYCardSwipeView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A52EB3C3D5562F6CA203F64592117971 /* WYCardSwipeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYCardSwipeView.h; path = WYCardSwipeView/WYCardSwipeView.h; sourceTree = "<group>"; };
+		AA07DFEB8761D9D6E1D2402942E9E5FD /* WYCardSwipeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WYCardSwipeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFFD61B3A0AC6730B6D0318DEC522098 /* Pods-WYCardSwipeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCardSwipeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B170FD55AD112AA50D30DB50D766B66F /* WYCardSwipeFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYCardSwipeFlowLayout.m; path = WYCardSwipeView/WYCardSwipeFlowLayout.m; sourceTree = "<group>"; };
+		B732F5C51A20D36BE92658599390ACC9 /* Pods-WYCardSwipeView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYCardSwipeView_Tests-Info.plist"; sourceTree = "<group>"; };
+		C08DEBFDE7682F8165F3894547FCEF74 /* WYCardSwipeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYCardSwipeView.modulemap; sourceTree = "<group>"; };
+		C0B5C785DDFE7CD70FFF8045C64593B6 /* WYCardItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYCardItem.h; path = WYCardSwipeView/WYCardItem.h; sourceTree = "<group>"; };
+		C49D8AE3D470C457C623D1CC9B4A3070 /* Pods-WYCardSwipeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYCardSwipeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C53C8F280576A6E724C09C2D5E1639D0 /* WYCardSwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYCardSwipeView-dummy.m"; sourceTree = "<group>"; };
+		C764D3EF451D95647D39714C21F6EBB9 /* WYCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYCard.h; path = WYCardSwipeView/WYCard.h; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1C37B603C7F5D7685D0D150E354539B /* WYCardSwipeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WYCardSwipeView.m; path = WYCardSwipeView/WYCardSwipeView.m; sourceTree = "<group>"; };
+		D306742545660D6EAB32E04D962020B9 /* Pods-WYCardSwipeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCardSwipeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D50B6F61C38C4FC17379D45075ECBDA4 /* WYCardSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYCardSwipeView-Info.plist"; sourceTree = "<group>"; };
+		DDE5AF135735BA2681D0A651700B9F33 /* WYCardSwipeFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WYCardSwipeFlowLayout.h; path = WYCardSwipeView/WYCardSwipeFlowLayout.h; sourceTree = "<group>"; };
+		FD3FFEBB0C7035FD090DEC15A2ED74F3 /* WYCardSwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYCardSwipeView.framework; path = WYCardSwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB0FCB68B834D4EAC2AC729F786B51E /* Pods-WYCardSwipeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYCardSwipeView_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F808D5EACE3F3C3828F93A3F524FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DE178CA51DBE8029D2BAF3C9CD6960 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289FE13AB55DA76D0A4669238A5A850D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2522F9F9661FB0EDBB0AECB1A776BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C9E36B2AF2994FB58FFEE959BAC25D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E3F52B7105714940457E4602EB84C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DEF3279241118CC447F7F15B9719B62 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4230ED5C6AAD23501B8853B2D5FF5DF7 /* LICENSE */,
+				44B4C6CC7144F7EE870864057345DC84 /* README.md */,
+				AA07DFEB8761D9D6E1D2402942E9E5FD /* WYCardSwipeView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4D1A50B8C788AA9735ACD792393902F9 /* Pods-WYCardSwipeView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				19C4F58A79A7174CA115ADFCD5102E27 /* Pods-WYCardSwipeView_Tests.modulemap */,
+				3BF046D8D691CDA7F2964B169B44FDF0 /* Pods-WYCardSwipeView_Tests-acknowledgements.markdown */,
+				7727082CF1CE5DD1CC3CF6DF3E0D624D /* Pods-WYCardSwipeView_Tests-acknowledgements.plist */,
+				91F32ED57E134F7B2A3955481B7D0082 /* Pods-WYCardSwipeView_Tests-dummy.m */,
+				B732F5C51A20D36BE92658599390ACC9 /* Pods-WYCardSwipeView_Tests-Info.plist */,
+				9E76A3E55837873A23943E740D57CB7A /* Pods-WYCardSwipeView_Tests-umbrella.h */,
+				D306742545660D6EAB32E04D962020B9 /* Pods-WYCardSwipeView_Tests.debug.xcconfig */,
+				AFFD61B3A0AC6730B6D0318DEC522098 /* Pods-WYCardSwipeView_Tests.release.xcconfig */,
+			);
+			name = "Pods-WYCardSwipeView_Tests";
+			path = "Target Support Files/Pods-WYCardSwipeView_Tests";
+			sourceTree = "<group>";
+		};
+		7189BBD35F26793AA9A6BAB4C5D94FE0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA065D68699CC6FF98EF04A9298D12FA /* WYCardSwipeView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ADC4405B6FA3DA0865A3384A941C26C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784CBDBB93EC79D17E6B2ADA9E9F0CDB /* Pods_WYCardSwipeView_Example.framework */,
+				289BB694E5B14338CEDFBAE5BB707797 /* Pods_WYCardSwipeView_Tests.framework */,
+				FD3FFEBB0C7035FD090DEC15A2ED74F3 /* WYCardSwipeView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D12D6C6935062C895680407722CA17 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7036DE649CADB4A27511D4281C9920F /* Pods-WYCardSwipeView_Example */,
+				4D1A50B8C788AA9735ACD792393902F9 /* Pods-WYCardSwipeView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7189BBD35F26793AA9A6BAB4C5D94FE0 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ADC4405B6FA3DA0865A3384A941C26C3 /* Products */,
+				B0D12D6C6935062C895680407722CA17 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2CE992E21983F06245A679AFDB43667 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C08DEBFDE7682F8165F3894547FCEF74 /* WYCardSwipeView.modulemap */,
+				51D01E20CD17A18DD2B1CBF01609EFA3 /* WYCardSwipeView.xcconfig */,
+				C53C8F280576A6E724C09C2D5E1639D0 /* WYCardSwipeView-dummy.m */,
+				D50B6F61C38C4FC17379D45075ECBDA4 /* WYCardSwipeView-Info.plist */,
+				8667E3FE3220A8B9AA6376404745F20D /* WYCardSwipeView-prefix.pch */,
+				0AB6C810CC6665F3B93FA746CD776182 /* WYCardSwipeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYCardSwipeView";
+			sourceTree = "<group>";
+		};
+		E7036DE649CADB4A27511D4281C9920F /* Pods-WYCardSwipeView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				620815C4ACD0AC0DB44BD5F2027854E3 /* Pods-WYCardSwipeView_Example.modulemap */,
+				6B0C0D3855835C8265ED5052F6D9B4E7 /* Pods-WYCardSwipeView_Example-acknowledgements.markdown */,
+				C49D8AE3D470C457C623D1CC9B4A3070 /* Pods-WYCardSwipeView_Example-acknowledgements.plist */,
+				32F013BD3872320EEAC7D6AAFBD67FBA /* Pods-WYCardSwipeView_Example-dummy.m */,
+				4429630E9A6EE4428CE586F6BF9684C0 /* Pods-WYCardSwipeView_Example-frameworks.sh */,
+				7D59EDD6B35BE2A6528861F04C7B9C2B /* Pods-WYCardSwipeView_Example-Info.plist */,
+				2AE687AAC3D1836BFBEB02A4D35CA061 /* Pods-WYCardSwipeView_Example-umbrella.h */,
+				7841652BF76DD711D7DA95B0DB24CA41 /* Pods-WYCardSwipeView_Example.debug.xcconfig */,
+				FFB0FCB68B834D4EAC2AC729F786B51E /* Pods-WYCardSwipeView_Example.release.xcconfig */,
+			);
+			name = "Pods-WYCardSwipeView_Example";
+			path = "Target Support Files/Pods-WYCardSwipeView_Example";
+			sourceTree = "<group>";
+		};
+		EA065D68699CC6FF98EF04A9298D12FA /* WYCardSwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				C764D3EF451D95647D39714C21F6EBB9 /* WYCard.h */,
+				3A086D1F11B7B9A87D1D73790AA6D350 /* WYCard.m */,
+				C0B5C785DDFE7CD70FFF8045C64593B6 /* WYCardItem.h */,
+				140A488DDE3D10255E20625BB0304293 /* WYCardItem.m */,
+				DDE5AF135735BA2681D0A651700B9F33 /* WYCardSwipeFlowLayout.h */,
+				B170FD55AD112AA50D30DB50D766B66F /* WYCardSwipeFlowLayout.m */,
+				A52EB3C3D5562F6CA203F64592117971 /* WYCardSwipeView.h */,
+				D1C37B603C7F5D7685D0D150E354539B /* WYCardSwipeView.m */,
+				0DEF3279241118CC447F7F15B9719B62 /* Pod */,
+				E2CE992E21983F06245A679AFDB43667 /* Support Files */,
+			);
+			name = WYCardSwipeView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		013EAF60EC495A96B32D51915DB01E49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89078FE5A5760BAB1832ECBC390D5CC /* WYCard.h in Headers */,
+				4DAFC4EAEE785BE9A2A82521CC1C4200 /* WYCardItem.h in Headers */,
+				760B1F1986B812B0E7AFBED52C3F5577 /* WYCardSwipeFlowLayout.h in Headers */,
+				5FE68CE46C31F06316D18591B7A40C92 /* WYCardSwipeView-umbrella.h in Headers */,
+				B05DE4511175991C6C5FAA80751A0628 /* WYCardSwipeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7A7039EC898C1A8C014BAA422E89CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB245A02E535B3323C9ECFC7F7A57C1 /* Pods-WYCardSwipeView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		645711B73686400561D5FA5DF0D4F965 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4B5708BD4E97BA4C7F1E3ABEEBCF27 /* Pods-WYCardSwipeView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9CCB9C195BEDC7769DD54959952A3BE6 /* Pods-WYCardSwipeView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3065A249336BF04211C19BE4ED04C10 /* Build configuration list for PBXNativeTarget "Pods-WYCardSwipeView_Example" */;
+			buildPhases = (
+				3E7A7039EC898C1A8C014BAA422E89CC /* Headers */,
+				C032D4797E3232243C952BFE4E1A1DC1 /* Sources */,
+				23F808D5EACE3F3C3828F93A3F524FE3 /* Frameworks */,
+				DFEA20AC9CB2B05AEEB705E29EF2B01F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7749578319A25DF4B0331D8CCDB5CA9C /* PBXTargetDependency */,
+			);
+			name = "Pods-WYCardSwipeView_Example";
+			productName = "Pods-WYCardSwipeView_Example";
+			productReference = 784CBDBB93EC79D17E6B2ADA9E9F0CDB /* Pods_WYCardSwipeView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2D6CB20839CCD764ABCC49369D665A4 /* Pods-WYCardSwipeView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F18DB8EC742DEED64E535F2306E87E79 /* Build configuration list for PBXNativeTarget "Pods-WYCardSwipeView_Tests" */;
+			buildPhases = (
+				645711B73686400561D5FA5DF0D4F965 /* Headers */,
+				972B8BB2A01668B1315D02ABC9DD0BFF /* Sources */,
+				E7C9E36B2AF2994FB58FFEE959BAC25D /* Frameworks */,
+				1E50C440C2D6711E28079857912AA563 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8F69879F1BEB2C891129B32F1A4C368 /* PBXTargetDependency */,
+			);
+			name = "Pods-WYCardSwipeView_Tests";
+			productName = "Pods-WYCardSwipeView_Tests";
+			productReference = 289BB694E5B14338CEDFBAE5BB707797 /* Pods_WYCardSwipeView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F16A619289649D47D7CFD3BFA6201620 /* WYCardSwipeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5870B5164BBB705541DCA6DC6901E581 /* Build configuration list for PBXNativeTarget "WYCardSwipeView" */;
+			buildPhases = (
+				013EAF60EC495A96B32D51915DB01E49 /* Headers */,
+				38642512048040160DE90BD06AAE0D9F /* Sources */,
+				289FE13AB55DA76D0A4669238A5A850D /* Frameworks */,
+				CC9BB36F70E96BFC4E35C4A970BAFA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYCardSwipeView;
+			productName = WYCardSwipeView;
+			productReference = FD3FFEBB0C7035FD090DEC15A2ED74F3 /* WYCardSwipeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = ADC4405B6FA3DA0865A3384A941C26C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CCB9C195BEDC7769DD54959952A3BE6 /* Pods-WYCardSwipeView_Example */,
+				E2D6CB20839CCD764ABCC49369D665A4 /* Pods-WYCardSwipeView_Tests */,
+				F16A619289649D47D7CFD3BFA6201620 /* WYCardSwipeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E50C440C2D6711E28079857912AA563 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9BB36F70E96BFC4E35C4A970BAFA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEA20AC9CB2B05AEEB705E29EF2B01F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38642512048040160DE90BD06AAE0D9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D27DAD87E4D1F1E862A426B519C6E4C /* WYCard.m in Sources */,
+				E8FC8FE132210E4ACEE1A784B147E7AC /* WYCardItem.m in Sources */,
+				3587A6D85ECF499C338192CEF527D6AB /* WYCardSwipeFlowLayout.m in Sources */,
+				40A1645CA14B09B517DF353CF3D3C5C4 /* WYCardSwipeView-dummy.m in Sources */,
+				D82EB38CE40C42A2608FA46487402301 /* WYCardSwipeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972B8BB2A01668B1315D02ABC9DD0BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8148D1673B7EA70EBCFC9C731CDCE67 /* Pods-WYCardSwipeView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C032D4797E3232243C952BFE4E1A1DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08F2515A7F8826663A4B6E74F3DD2DED /* Pods-WYCardSwipeView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7749578319A25DF4B0331D8CCDB5CA9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYCardSwipeView;
+			target = F16A619289649D47D7CFD3BFA6201620 /* WYCardSwipeView */;
+			targetProxy = D4812C1F33E6EC32FD0D8AB65820DB95 /* PBXContainerItemProxy */;
+		};
+		E8F69879F1BEB2C891129B32F1A4C368 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WYCardSwipeView_Example";
+			target = 9CCB9C195BEDC7769DD54959952A3BE6 /* Pods-WYCardSwipeView_Example */;
+			targetProxy = A4407B57EE0E732C1D439F9C2EE0CA95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03307EA71852F2ED4584B56964A0E935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D306742545660D6EAB32E04D962020B9 /* Pods-WYCardSwipeView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYCardSwipeView_Tests/Pods-WYCardSwipeView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYCardSwipeView_Tests/Pods-WYCardSwipeView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0FED2B532A31D9AB41E2A805541589F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D01E20CD17A18DD2B1CBF01609EFA3 /* WYCardSwipeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYCardSwipeView/WYCardSwipeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYCardSwipeView/WYCardSwipeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYCardSwipeView/WYCardSwipeView.modulemap";
+				PRODUCT_MODULE_NAME = WYCardSwipeView;
+				PRODUCT_NAME = WYCardSwipeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D46515C60FDA7B910947764372E4C83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D01E20CD17A18DD2B1CBF01609EFA3 /* WYCardSwipeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYCardSwipeView/WYCardSwipeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYCardSwipeView/WYCardSwipeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYCardSwipeView/WYCardSwipeView.modulemap";
+				PRODUCT_MODULE_NAME = WYCardSwipeView;
+				PRODUCT_NAME = WYCardSwipeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9196E215D0C66471EEF1877C13155AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB0FCB68B834D4EAC2AC729F786B51E /* Pods-WYCardSwipeView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYCardSwipeView_Example/Pods-WYCardSwipeView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYCardSwipeView_Example/Pods-WYCardSwipeView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E5FB4F9CDCD143914B393903D03A6601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7841652BF76DD711D7DA95B0DB24CA41 /* Pods-WYCardSwipeView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYCardSwipeView_Example/Pods-WYCardSwipeView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYCardSwipeView_Example/Pods-WYCardSwipeView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA19536BE9B5AF03B5F31E82AA2725BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFD61B3A0AC6730B6D0318DEC522098 /* Pods-WYCardSwipeView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYCardSwipeView_Tests/Pods-WYCardSwipeView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYCardSwipeView_Tests/Pods-WYCardSwipeView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5870B5164BBB705541DCA6DC6901E581 /* Build configuration list for PBXNativeTarget "WYCardSwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FED2B532A31D9AB41E2A805541589F3 /* Debug */,
+				6D46515C60FDA7B910947764372E4C83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3065A249336BF04211C19BE4ED04C10 /* Build configuration list for PBXNativeTarget "Pods-WYCardSwipeView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5FB4F9CDCD143914B393903D03A6601 /* Debug */,
+				9196E215D0C66471EEF1877C13155AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F18DB8EC742DEED64E535F2306E87E79 /* Build configuration list for PBXNativeTarget "Pods-WYCardSwipeView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03307EA71852F2ED4584B56964A0E935 /* Debug */,
+				FA19536BE9B5AF03B5F31E82AA2725BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
